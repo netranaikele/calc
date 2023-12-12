@@ -1,0 +1,103 @@
+body {
+    background-color: #ff3385;
+    margin: 0%;
+    padding: 0%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.calculator-container {
+    height: 100vh;
+    width: 100%;
+    background-color: #130606;
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+    padding: 2px;
+    box-shadow: 1px 1px 10px whitesmoke;
+}
+
+.input {
+    margin-top: 20px;
+    display: block;
+    padding: 18px;
+    margin: auto;
+    height: 10px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #bfbfbf;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: block;
+}
+
+.brand {
+    text-align: right;
+    margin-right: 40px;
+    font-weight: bold;
+    color: azure;
+    margin: 2px;
+    margin-right: 20px;
+    padding-top: 6px;
+}
+
+.edit {
+    font-size: large;
+    font-weight: bolder;
+    background-color: #003326;
+    color: whitesmoke;
+    box-shadow: 1px -1px 1px #bfbfbf, 1px -1px 10px rgba(245, 245, 245, 0.531);
+    border: double 1px black;
+    height: 30px;
+    width: 35px;
+    margin: 5px;
+    margin-top: 18px;
+    margin-left: 20px;
+    ;
+    border-radius: 2px;
+}
+
+.new {
+    background-color: #031d3d;
+    font-size: large;
+    font-weight: bolder;
+    color: whitesmoke;
+    box-shadow: 1px -1px 1px #bfbfbf, 1px -1px 10px rgba(245, 245, 245, 0.531);
+    border: double 1px black;
+    height: 30px;
+    width: 38px;
+    margin: 5px;
+    margin-top: 20px;
+    margin-left: 28px;
+    margin-right: 4px;
+    border-radius: 2px;
+}
+
+.red {
+    background-color: rgb(42, 181, 176);
+    color: white;
+    height: 33px;
+    width: 43px;
+    box-shadow: 0px 0px 7px #bfbfbf;
+    margin-left: 25px;
+}
+
+.button-container :hover {
+    cursor: pointer;
+    height: 33px;
+    height: 33px;
+    box-shadow: 1px 1px 10px #4ae7fc, -1px 1px 10px rgb(14, 28, 148);
+    border: 1px groove pink;
+    border-radius: 7px;
+}
